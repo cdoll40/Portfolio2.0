@@ -3,8 +3,8 @@ import React from "react";
 const TechStack = () => {
 	return (
 		<div name="techStack" className="pt-4 pb-8">
-			<h1 className="text-2xl font-bold">Tech Stacks</h1>
-			<div className="flex flex-wrap items-center m-2 justify-left">
+			<h1 className="text-3xl font-bold">Tech Stacks</h1>
+			<div className="flex flex-wrap items-center m-2 justify-left text-lg">
 				<div className="m-2 border-solid border border-slate-700 rounded-md p-2 text-slate-300 text-center">
 					React, Nodejs, Expressjs, MySQL
 				</div>

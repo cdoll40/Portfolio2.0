@@ -31,7 +31,7 @@ const NavBar = () => {
 				{links.map((link) => (
 					<li
 						key={link.id}
-						className="md:px-6 sm:px-5 px-4 pt-4 cursor-pointer capitalize text-base text-slate-400 hover:scale-105 duration-200"
+						className="md:px-6 sm:px-5 px-4 pt-4 cursor-pointer capitalize text-lg text-slate-400 hover:scale-105 duration-200"
 					>
 						<Link to={link.name} smooth duration={500}>
 							{link.name}

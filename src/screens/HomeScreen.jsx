@@ -10,13 +10,13 @@ const HomeScreen = () => {
 	return (
 		<div className="max-w-screen-lg mx-auto mt-10 px-4">
 			<Hero />
-			{/* <div className="divide-y divide-solid divide-slate-600"> */}
-			<NavBar />
-			<Skills />
+			<div className="divide-y divide-solid divide-slate-700">
+				<NavBar />
+				<Skills />
+			</div>
 			<TechStack />
 			<Projects />
 			<WorkHistory />
-			{/* </div> */}
 		</div>
 	);
 };
