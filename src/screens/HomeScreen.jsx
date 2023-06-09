@@ -8,7 +8,7 @@ import WorkHistory from "../components/WorkHistory";
 
 const HomeScreen = () => {
 	return (
-		<div className="max-w-screen-sm mx-auto mt-20">
+		<div className="max-w-screen-lg mx-auto mt-10 px-4">
 			<Hero />
 			{/* <div className="divide-y divide-solid divide-slate-600"> */}
 			<NavBar />
