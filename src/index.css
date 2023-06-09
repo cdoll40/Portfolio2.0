@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Dark: #272537
+Light: #FF3D3B4E */
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background-color: #12101d;
+	color: white;
+}
