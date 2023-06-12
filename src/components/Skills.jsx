@@ -9,13 +9,8 @@ const Skills = () => {
 			<div className="flex justify-left px-6 text-lg">
 				<ul className="text-slate-300">
 					<li>Graduated usm fall 2022 cs bs gpa</li>
-					<li className="pt-1">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. dasf sadf
-						dsfdsa
-					</li>
-					<li className="pt-1">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					</li>
+					<li className="pt-1">Languages: html, css, javascript, c#</li>
+					<li className="pt-1">Frameworks/Libraries: React, Next, .NET</li>
 					<li className="pt-1">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
 					</li>

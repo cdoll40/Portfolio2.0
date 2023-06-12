@@ -36,7 +36,7 @@ const Projects = () => {
 				Check out some of my previous and current projects.
 			</p>
 
-			<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 px-12 sm:px-0 m-4">
+			<div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4 px-12 sm:px-0 m-4">
 				{projects.map(({ id, src, desc, link }) => (
 					<div
 						key={id}
