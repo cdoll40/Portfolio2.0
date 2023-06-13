@@ -4,24 +4,20 @@ import { Link } from "react-scroll";
 const NavBar = () => {
 	const links = [
 		{
-			id: 1,
+			id: 0,
 			name: "skills",
-			title: "Skills",
+		},
+		{
+			id: 1,
+			name: "techStack",
 		},
 		{
 			id: 2,
-			name: "techStack",
-			title: "Tech Stack",
+			name: "projects",
 		},
 		{
 			id: 3,
-			name: "projects",
-			title: "Projects",
-		},
-		{
-			id: 4,
 			name: "workHistory",
-			title: "Work History",
 		},
 	];
 
@@ -34,7 +30,7 @@ const NavBar = () => {
 						className="md:px-6 sm:px-5 px-4 pt-4 cursor-pointer capitalize text-lg text-slate-400 hover:scale-105 duration-200"
 					>
 						<Link to={link.name} smooth duration={500}>
-							{link.title}
+							{link.name.replace(/([A-Z])/g, " $1")}
 						</Link>
 					</li>
 				))}

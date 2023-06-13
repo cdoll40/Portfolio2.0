@@ -1,7 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import heroImage from "../assets/heroImage.png";
 
 const Hero = () => {
+	const socials = [
+		{
+			id: 0,
+			title: "LinkedIn",
+			link: "https://github.com/cdoll40/Inventory-Management-System",
+		},
+		{
+			id: 1,
+			title: "GitHub",
+			link: "https://github.com/cdoll40/Jesco",
+		},
+		{
+			id: 2,
+			title: "Resume",
+			link: "https://github.com/cdoll40/portfolio",
+		},
+	];
+
 	return (
 		<div className="flex flex-col md:flex-row items-center justify-center mb-4">
 			<div className="w-1/3 flex flex-col md:mr-4 mb-4 items-center">
@@ -13,9 +32,17 @@ const Hero = () => {
 				<div className="flex mb-6">
 					<p className="text-lg font-bold">My Links:</p>
 					<div className="flex divide-x divide-solid divide-slate-700">
-						<p className="text-lg text-slate-300 px-8">LinkedIn</p>
-						<p className="text-lg text-slate-300 px-8">GitHub</p>
-						<p className="text-lg text-slate-300 px-8">Resume</p>
+						{socials.map((link) => (
+							<Link
+								to={link.link}
+								key={link.id}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="text-lg text-slate-300 px-8 cursor-pointer capitalize hover:scale-105 duration-200"
+							>
+								{link.title}
+							</Link>
+						))}
 					</div>
 				</div>
 				<p className="text-lg mb-6 text-slate-300">
