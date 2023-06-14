@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import ManagerHome from "../assets/projects/ManagerHome.PNG";
 import DiscordBot from "../assets/projects/DiscordBot.PNG";
 import Portfolio from "../assets/projects/Portfolio.PNG";
+import DesktopIMS from "../assets/projects/DesktopIMS.PNG";
 
 const Projects = () => {
 	const projects = [
@@ -20,7 +21,7 @@ const Projects = () => {
 		},
 		{
 			id: 2,
-			src: Portfolio,
+			src: DesktopIMS,
 			title: "Inventory Management System Desktop App",
 			link: "https://github.com/cdoll40/WPF_InventoryManagementSystem",
 		},
@@ -48,7 +49,13 @@ const Projects = () => {
 						key={id}
 						className="flex flex-col border-solid border border-slate-700 rounded-md p-2"
 					>
-						<img src={src} alt="" className=" h-36 rounded-md" />
+						<div className="relative h-40">
+							<img
+								src={src}
+								alt=""
+								className="absolute h-full w-full object-fill rounded-md"
+							/>
+						</div>
 						<p className="pt-2 flex-grow text-slate-300">{title}</p>
 						<div className="flex items-center justify-center mt-1">
 							<button className="m-2 p-2 w-1/3 duration-200 hover:scale-105 border-solid border border-slate-700 rounded-md text-slate-300">
