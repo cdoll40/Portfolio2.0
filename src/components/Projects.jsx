@@ -16,19 +16,19 @@ const Projects = () => {
 			id: 1,
 			src: DiscordBot,
 			title: "Discord Bot",
-			link: "https://github.com/cdoll40/Jesco",
+			link: "https://github.com/cdoll40/JS-Discord-Bot",
 		},
 		{
 			id: 2,
-			src: ManagerHome,
-			title: "Inventory Management System Web App",
-			link: "https://github.com/cdoll40/Inventory-Management-System",
+			src: Portfolio,
+			title: "Inventory Management System Desktop App",
+			link: "https://github.com/cdoll40/WPF_InventoryManagementSystem",
 		},
 		{
 			id: 3,
-			src: Portfolio,
-			title: "Inventory Management System Desktop App",
-			link: "https://github.com/cdoll40/portfolio",
+			src: ManagerHome,
+			title: "Inventory Management System Web App",
+			link: "https://github.com/cdoll40/Inventory-Management-System",
 		},
 	];
 
