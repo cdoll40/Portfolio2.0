@@ -12,7 +12,7 @@ const Projects = () => {
 	const projects = [
 		{
 			id: 0,
-			thumbnail: portfolioImages[0],
+			thumbnail: portfolioImages[0].src,
 			gallery: portfolioImages,
 			title: "Portfolio 1.0",
 			link: "https://github.com/cdoll40/portfolio",
@@ -20,7 +20,7 @@ const Projects = () => {
 		},
 		{
 			id: 1,
-			thumbnail: discordImages[0],
+			thumbnail: discordImages[0].src,
 			gallery: discordImages,
 			title: "Discord Bot",
 			link: "https://github.com/cdoll40/JS-Discord-Bot",
@@ -28,7 +28,7 @@ const Projects = () => {
 		},
 		{
 			id: 2,
-			thumbnail: desktopImsImages[0],
+			thumbnail: desktopImsImages[0].src,
 			gallery: desktopImsImages,
 			title: "Inventory Management System Desktop App",
 			link: "https://github.com/cdoll40/WPF_InventoryManagementSystem",
@@ -36,7 +36,7 @@ const Projects = () => {
 		},
 		{
 			id: 3,
-			thumbnail: webImsImages[0],
+			thumbnail: webImsImages[0].src,
 			gallery: webImsImages,
 			title: "Inventory Management System Web App",
 			link: "https://github.com/cdoll40/Inventory-Management-System",
@@ -97,7 +97,10 @@ const Projects = () => {
 			</div>
 
 			{selectedProject && (
-				<div className="fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+				<div
+					className="fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-black bg-opacity-50 z-40"
+					onClick={() => setSelectedProject(null)}
+				>
 					<DialogBox
 						project={selectedProject}
 						onClose={() => setSelectedProject(null)}
