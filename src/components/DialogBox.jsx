@@ -41,20 +41,6 @@ export default function DialogBox({ onClose, project }) {
 		fetchData();
 	}, []);
 
-	// useEffect(() => {
-	// 	const handleOutsideClick = (event) => {
-	// 		if (dialogRef.current && !dialogRef.current.contains(event.target)) {
-	// 			handleClose();
-	// 		}
-	// 	};
-
-	// 	document.addEventListener("mousedown", handleOutsideClick);
-
-	// 	return () => {
-	// 		document.removeEventListener("mousedown", handleOutsideClick);
-	// 	};
-	// }, []);
-
 	const handleClose = () => {
 		setOpen(false);
 		onClose();
@@ -67,7 +53,7 @@ export default function DialogBox({ onClose, project }) {
 	return (
 		<div
 			onClick={(e) => e.stopPropagation()}
-			className={`fixed inset-0 flex items-center justify-center z-40 max-w-screen-lg max-h-fit m-auto border-4 border-solid border-red-950 ${
+			className={`fixed inset-0 flex items-center justify-center z-40 max-w-screen-lg max-h-fit m-auto ${
 				open ? "visible" : "invisible"
 			}`}
 		>
@@ -113,10 +99,7 @@ export default function DialogBox({ onClose, project }) {
 					onClick={() => setSelectedImage(null)}
 					className="fixed top-0 left-0 right-0 bottom-0 items-center justify-center bg-black bg-opacity-50 z-50"
 				>
-					<ImageDialogBox
-						image={selectedImage}
-						onImageClose={() => setSelectedImage(null)}
-					/>
+					<ImageDialogBox image={selectedImage} />
 				</div>
 			)}
 		</div>
