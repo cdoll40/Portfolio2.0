@@ -70,7 +70,7 @@ export default function DialogBox({ onClose, project }) {
 						{project.gallery.map((image) => (
 							<div
 								key={image.id}
-								className="relative h-32"
+								className="relative h-32 duration-200 hover:scale-105"
 								onClick={() => handleImageClick(image.src)}
 							>
 								<img
