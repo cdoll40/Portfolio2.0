@@ -16,7 +16,6 @@ const Projects = () => {
 			gallery: portfolioImages,
 			title: "Portfolio 1.0",
 			link: "https://github.com/cdoll40/portfolio",
-			content: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
 		},
 		{
 			id: 1,
@@ -24,7 +23,6 @@ const Projects = () => {
 			gallery: discordImages,
 			title: "Discord Bot",
 			link: "https://github.com/cdoll40/JS-Discord-Bot",
-			content: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
 		},
 		{
 			id: 2,
@@ -32,7 +30,6 @@ const Projects = () => {
 			gallery: desktopImsImages,
 			title: "Inventory Management System Desktop App",
 			link: "https://github.com/cdoll40/WPF_InventoryManagementSystem",
-			content: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
 		},
 		{
 			id: 3,
@@ -40,7 +37,6 @@ const Projects = () => {
 			gallery: webImsImages,
 			title: "Inventory Management System Web App",
 			link: "https://github.com/cdoll40/Inventory-Management-System",
-			content: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
 		},
 	];
 

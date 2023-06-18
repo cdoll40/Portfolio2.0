@@ -15,3 +15,16 @@ body {
 	background-color: rgb(22, 22, 22);
 	color: white;
 }
+
+@keyframes loading-bar {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 100%;
+	}
+}
+
+.animate-loading-bar {
+	animation: loading-bar 1s linear infinite;
+}
