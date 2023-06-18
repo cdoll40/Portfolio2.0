@@ -7,5 +7,6 @@ export default defineConfig({
 	server: {
 		port: 3000,
 	},
+	base: "/Portfolio2.0",
 	assetsInclude: ["**/*.PNG"],
 });
