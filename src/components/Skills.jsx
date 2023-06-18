@@ -8,12 +8,15 @@ const Skills = () => {
 			</div>
 			<div className="flex justify-left px-6 text-lg">
 				<ul className="text-slate-300">
-					<li>Graduated usm fall 2022 cs bs gpa</li>
-					<li className="pt-1">Languages: html, css, javascript, c#</li>
-					<li className="pt-1">Frameworks/Libraries: React, Next, .NET</li>
-					<li className="pt-1">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					<li>
+						University of Southern Mississippi, Bachelor of Science in Computer
+						Science, GPA: 3.72
 					</li>
+					<li className="pt-1">
+						Languages: HTML, CSS, JavaScript, TypeScript, C#
+					</li>
+					<li className="pt-1">Frameworks: Next.js Express.js, .NET</li>
+					<li className="pt-1">Libraries: React.js, Axios</li>
 				</ul>
 			</div>
 		</div>
