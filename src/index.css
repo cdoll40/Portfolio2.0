@@ -5,12 +5,13 @@
 /* Dark: #272537
 Light: #FF3D3B4E */
 
-html,
+/* html,
 body {
 	height: 100%;
-}
+} */
 
 body {
+	height: 100%;
 	background-color: rgb(22, 22, 22);
 	color: white;
 }

@@ -7,17 +7,17 @@ const Hero = () => {
 		{
 			id: 0,
 			title: "LinkedIn",
-			link: "https://github.com/cdoll40/Inventory-Management-System",
+			link: "https://www.linkedin.com/in/cody-doll-964213255/",
 		},
 		{
 			id: 1,
 			title: "GitHub",
-			link: "https://github.com/cdoll40/Jesco",
+			link: "https://github.com/cdoll40",
 		},
 		{
 			id: 2,
 			title: "Resume",
-			link: "https://github.com/cdoll40/portfolio",
+			link: "/Resume.pdf",
 		},
 	];
 
@@ -45,10 +45,12 @@ const Hero = () => {
 						))}
 					</div>
 				</div>
-				<p className="text-lg mb-6 text-slate-300">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia in
-					aspernatur labore hic consequuntur vero, quia deleniti asperiores
-					eligendi maiores
+				<p className="text-base mb-6 text-slate-300">
+					A recent computer science graduate with a focus on web development,
+					dedication to lifelong learning, collaborative mindset, and keen
+					attention to detail. I am passionate about creating user-friendly web
+					solutions, responsive interfaces, optimizing website performance, and
+					building robust back-end systems.
 				</p>
 			</div>
 		</div>
